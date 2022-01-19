@@ -8,10 +8,10 @@ public class Multiple {
         System.out.println("1*4=4");
         System.out.println("1*5=5");
         System.out.println("1*6=6");
-        System.out.println("1*7=3");
-        System.out.println("1*3=7");
+        System.out.println("1*7=7");
         System.out.println("1*8=8");
         System.out.println("1*9=9");
         System.out.println("1*10=10");
+        System.out.println("1*11=11");
     }
 }
