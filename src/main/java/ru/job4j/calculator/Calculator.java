@@ -23,5 +23,6 @@ public class Calculator {
         Calculator.plus(100, 500);
         Calculator.plus(4, 2);
         Calculator.plus(3, 5);
+        Calculator.plus(55, 65);
     }
 }
