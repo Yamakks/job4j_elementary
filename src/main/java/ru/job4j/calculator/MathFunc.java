@@ -10,10 +10,11 @@ public class MathFunc {
         int y = 1 / x;
         return y;
     }
+    /** Произвел замену в func2 аргумента на 1, тк. это int И при значении 5 ответом будет 0     */
 
-    public static void main(String[] args) {
+        public static void main(String[] args) {
         int result1 = MathFunc.func1(3);
-        int result2 = MathFunc.func2(1); // поменял на 1, тк. int это целое и 1/5 = 0 с остатком 1
+        int result2 = MathFunc.func2(1);
         int total = result1 + result2;
         System.out.println(total);
         int result3 = MathFunc.func1(100);
