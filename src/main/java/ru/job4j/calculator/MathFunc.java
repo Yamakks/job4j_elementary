@@ -13,7 +13,7 @@ public class MathFunc {
 
     public static void main(String[] args) {
         int result1 = MathFunc.func1(3);
-        int result2 = MathFunc.func2(5);
+        int result2 = MathFunc.func2(1); // поменял на 1, тк. int это целое и 1/5 = 0 с остатком 1
         int total = result1 + result2;
         System.out.println(total);
         int result3 = MathFunc.func1(100);
