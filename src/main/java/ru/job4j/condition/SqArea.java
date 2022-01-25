@@ -14,6 +14,7 @@ public class SqArea {
         System.out.print("p = " + p1 + ", k = " + k1 + ", s = 1, real = ");
         double result1 = SqArea.square(p1++, k1++);
         p1++;
+        /**+1*/
         double result2 = SqArea.square(p1, k1);
         System.out.println(result1);
         System.out.print("p = " + p1 + ", k = " + k1 + ", s = 2, real = ");
