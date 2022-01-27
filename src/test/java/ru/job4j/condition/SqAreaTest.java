@@ -24,4 +24,13 @@ public class SqAreaTest {
         double out = SqArea.square(p, k);
         Assert.assertEquals(expected, out, 0.001);
     }
+
+    @Test
+    public void whenP8K13thensquare1dot06() {
+        double p = 8;
+        double k = 13;
+        double expected = 1.06;
+        double out = SqArea.square(p, k);
+        Assert.assertEquals(expected, out, 0.01);
+    }
 }
