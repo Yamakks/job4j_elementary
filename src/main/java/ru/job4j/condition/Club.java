@@ -4,7 +4,7 @@ public class Club {
     public static void permission(boolean hasMoney, boolean beFriend) {
         if (beFriend || hasMoney) {
             System.out.println("I can go to the club.");
-        } else {
+        } else  {
             System.out.println(" I can't.");
         }
     }
