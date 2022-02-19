@@ -13,8 +13,8 @@ public class ArrayDefinition {
         System.out.println("Размер массива ages равен: " + ages.length);
         System.out.println("Размер массива surname равен: " + surnames.length);
         System.out.println("Размер массива prices равен: " + prices.length);
-        for (int i = 0; i <= 3; i++) {
-            System.out.println(names[i]);
+        for (int index = 0; index <= 3; index++) {
+            System.out.println(names[index]);
         }
 
         }
