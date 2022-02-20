@@ -18,8 +18,8 @@ public class SwitchArrayTest {
     @Test
     public void whenSwapHalfMinus1ToHalf() {
         int[] input = {11, 56, 3, 4, 7, 12};
-        int source = (((input.length) / 2) - 1);
-        int dest = ((input.length) / 2);
+        int source = 2;
+        int dest = 3;
         int[] result = SwitchArray.swap(input, source, dest);
         int[] expected = {11, 56, 4, 3, 7, 12};
         Assert.assertArrayEquals(expected, result);
@@ -28,8 +28,8 @@ public class SwitchArrayTest {
     @Test
     public void whenSwapHalfToHalfMinus1() {
         int[] input = {11, 56, 3, 4, 7, 12, 13, 1};
-        int source = ((input.length) / 2);
-        int dest = (((input.length) / 2) - 1);
+        int source = 4;
+        int dest = 3;
         int[] result = SwitchArray.swap(input, source, dest);
         int[] expected = {11, 56, 3, 7, 4, 12, 13, 1};
         Assert.assertArrayEquals(expected, result);
