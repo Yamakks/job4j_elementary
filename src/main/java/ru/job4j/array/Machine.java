@@ -8,7 +8,7 @@ public class Machine {
         int size = 0;
         for (int i = 0; i < coins.length; i++) {
 
-        
+
         return Arrays.copyOf(rsl, size);
     } */
 }
