@@ -7,7 +7,7 @@ public class MathCalculator {
                 + multiply(first, second);
     }
 
-    public static double difAnDdiv(double first, double second) {
+    public static double difAndDiv(double first, double second) {
         return difference(first, second)
                 + division(first, second);
     }
@@ -21,7 +21,7 @@ public class MathCalculator {
 
     public static void main(String[] args) {
         System.out.println("Результат MathFunction.sum + MathFunction.multiply расчета равен: " + sumAndMultiply(10, 20));
-        System.out.println("Результат MathFunction.difference + MathFunction.division расчета равен: " + difAnDdiv(10, 20));
+        System.out.println("Результат MathFunction.difference + MathFunction.division расчета равен: " + difAndDiv(10, 20));
         System.out.println("Результат расчета равен суммы методов класса MathFunction равен: " + totalSum(10, 20));
     }
 }
