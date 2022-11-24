@@ -47,4 +47,9 @@ class JavaNameValidatorTest {
         assertThat(isNameValid("fir$t_u$er_1")).isTrue();
     }
 
+    @Test
+    void whenKyrillFalse() {
+        assertThat(isNameValid("fпервыйrst")).isFalse();
+    }
+
 }
